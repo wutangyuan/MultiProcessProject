@@ -7,6 +7,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PE.Socket", "PESocket\PE.So
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PEServerConsole", "PEServerConsole\PEServerConsole.csproj", "{5F3979E6-ED74-4DD4-B734-ACB0CF012592}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "进程传参数", "进程传参数", "{AE3B9341-7B7E-4C60-8B48-9D7BE39F5AF2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProcessWindowInitiator", "ProcessWindowInitiator\ProcessWindowInitiator.csproj", "{C2E8AFFF-9EC9-4A11-B633-47F694C77508}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProcessWindowCaller", "ProcessWindowCaller\ProcessWindowCaller.csproj", "{BA10ED72-FBC9-4294-A196-EAB0D35D9154}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,9 +27,21 @@ Global
 		{5F3979E6-ED74-4DD4-B734-ACB0CF012592}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5F3979E6-ED74-4DD4-B734-ACB0CF012592}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5F3979E6-ED74-4DD4-B734-ACB0CF012592}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2E8AFFF-9EC9-4A11-B633-47F694C77508}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2E8AFFF-9EC9-4A11-B633-47F694C77508}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2E8AFFF-9EC9-4A11-B633-47F694C77508}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2E8AFFF-9EC9-4A11-B633-47F694C77508}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA10ED72-FBC9-4294-A196-EAB0D35D9154}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA10ED72-FBC9-4294-A196-EAB0D35D9154}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA10ED72-FBC9-4294-A196-EAB0D35D9154}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA10ED72-FBC9-4294-A196-EAB0D35D9154}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C2E8AFFF-9EC9-4A11-B633-47F694C77508} = {AE3B9341-7B7E-4C60-8B48-9D7BE39F5AF2}
+		{BA10ED72-FBC9-4294-A196-EAB0D35D9154} = {AE3B9341-7B7E-4C60-8B48-9D7BE39F5AF2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D5855D08-2111-4098-A9FA-CCE621F17DE0}
